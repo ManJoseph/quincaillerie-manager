@@ -1,7 +1,6 @@
 # 🛠️ StoreMinder: Professional Hardware Store Manager
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/ManJoseph/quincaillerie-manager)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed.svg?logo=docker)](https://www.docker.com/)
 [![PHP](https://img.shields.io/badge/PHP-8.2-777bb4.svg?logo=php)](https://www.php.net/)
 
@@ -84,17 +83,8 @@ We welcome contributions! Whether it's fixing bugs, adding features, or improvin
 
 ---
 
-## 📜 License
-
-Distributed under the MIT License. See `fpdf186/license.txt` for library-specific licenses.
-
----
-
 ## 📞 Contact
 
 **Man.Joseph** - [GitHub Profile](https://github.com/ManJoseph)
 
 Project Link: [https://github.com/ManJoseph/quincaillerie-manager](https://github.com/ManJoseph/quincaillerie-manager)
-
----
-*Developed with ❤️ to empower hardware store owners.*
