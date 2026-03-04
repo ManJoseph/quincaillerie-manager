@@ -8,6 +8,9 @@
 
 ---
 
+<img width="948" height="435" alt="image" src="https://github.com/user-attachments/assets/21abb5f3-f371-4c14-85c7-e0ab33f828aa" />
+
+---
 ## ✨ Key Features
 
 - 🏢 **Multi-Tenancy Architecture:** Host multiple stores on a single platform with complete data isolation.
