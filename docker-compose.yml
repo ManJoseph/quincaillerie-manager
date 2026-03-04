@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: quincaillerie_manager
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./setup/database.sql:/docker-entrypoint-initdb.d/database.sql
+    networks:
+      - storeminder_network
+
+  web:
+    build: .
+    ports:
+      - "8085:80"
+    environment:
+      DB_HOST: db
+      DB_NAME: quincaillerie_manager
+      DB_USER: root
+      DB_PASS: ""
+      # Add SMTP settings if you want to override defaults
+      # SMTP_HOST: smtp.gmail.com
+      # SMTP_USER: your-email@gmail.com
+      # SMTP_PASS: your-app-password
+    depends_on:
+      - db
+    networks:
+      - storeminder_network
+
+networks:
+  storeminder_network:
+    driver: bridge
+
+volumes:
+  db_data:

@@ -1,0 +1,12 @@
+.git
+docs
+setup
+docker-compose.yml
+Dockerfile
+.dockerignore
+*.docx
+*.pdf
+phpmailer/vendor/phpmailer/phpmailer/get_oauth_token.php
+fpdf186/tutorial
+fpdf186/doc
+fpdf186/makefont
